@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "A"
-  s.version      = "9"
+  s.version      = "10"
   s.summary      = "A."
   s.description  = <<-DESC
                     this is A
