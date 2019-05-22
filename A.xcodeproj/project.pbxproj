@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1521C36FAD874EB1A0DDE06C /* Pods_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EC385A95AC0B7F37C288B8 /* Pods_A.framework */; };
+		3ABB5EAACF1F5D0022116047 /* libPods-A.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD02B309AAC835FC77405EB /* libPods-A.a */; };
 		4214BF822294F78D0040DE5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214BF812294F78D0040DE5C /* AppDelegate.m */; };
 		4214BF852294F78D0040DE5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214BF842294F78D0040DE5C /* ViewController.m */; };
 		4214BF882294F78D0040DE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4214BF862294F78D0040DE5C /* Main.storyboard */; };
@@ -20,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		35EC385A95AC0B7F37C288B8 /* Pods_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4214BF7D2294F78D0040DE5C /* A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4214BF802294F78D0040DE5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4214BF812294F78D0040DE5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		4214BFC4229528B10040DE5C /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		4214BFC5229528B10040DE5C /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		54C5376838B2C7AEF890037B /* Pods-A.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.debug.xcconfig"; path = "Target Support Files/Pods-A/Pods-A.debug.xcconfig"; sourceTree = "<group>"; };
+		6DD02B309AAC835FC77405EB /* libPods-A.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-A.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E403AA0894AB2F45BCF959 /* Pods-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.release.xcconfig"; path = "Target Support Files/Pods-A/Pods-A.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1521C36FAD874EB1A0DDE06C /* Pods_A.framework in Frameworks */,
+				3ABB5EAACF1F5D0022116047 /* libPods-A.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +113,7 @@
 		C82BEAC37A7303853CD58829 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				35EC385A95AC0B7F37C288B8 /* Pods_A.framework */,
+				6DD02B309AAC835FC77405EB /* libPods-A.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,7 +139,6 @@
 				4214BF792294F78D0040DE5C /* Sources */,
 				4214BF7A2294F78D0040DE5C /* Frameworks */,
 				4214BF7B2294F78D0040DE5C /* Resources */,
-				2B980E7C8C12D16AFE2CDA06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,32 +195,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2B980E7C8C12D16AFE2CDA06 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-A/Pods-A-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/B_Category/B_Category.framework",
-				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
-				"${BUILT_PRODUCTS_DIR}/HandyFrame/HandyFrame.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/B_Category.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyFrame.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-A/Pods-A-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6252F069F312A0C820355CF2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
