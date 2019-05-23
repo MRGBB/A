@@ -14,7 +14,6 @@
 		4214BF8A2294F78E0040DE5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4214BF892294F78E0040DE5C /* Assets.xcassets */; };
 		4214BF8D2294F78E0040DE5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4214BF8B2294F78E0040DE5C /* LaunchScreen.storyboard */; };
 		4214BF902294F78E0040DE5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214BF8F2294F78E0040DE5C /* main.m */; };
-		4214BF982294FCA30040DE5C /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214BF972294FCA30040DE5C /* AViewController.m */; };
 		4214BFC2229528170040DE5C /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214BFC1229528170040DE5C /* Target_A.m */; };
 		4214BFC6229528B20040DE5C /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214BFC4229528B10040DE5C /* AViewController.m */; };
 		4214C038229630260040DE5C /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214C036229630260040DE5C /* Target_A.m */; };
@@ -31,8 +30,6 @@
 		4214BF8C2294F78E0040DE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4214BF8E2294F78E0040DE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4214BF8F2294F78E0040DE5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4214BF962294FCA30040DE5C /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AViewController.h; path = A/AViewController.h; sourceTree = "<group>"; };
-		4214BF972294FCA30040DE5C /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AViewController.m; path = A/AViewController.m; sourceTree = "<group>"; };
 		4214BFC0229528170040DE5C /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
 		4214BFC1229528170040DE5C /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 		4214BFC4229528B10040DE5C /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
@@ -88,8 +85,6 @@
 				4214BF8B2294F78E0040DE5C /* LaunchScreen.storyboard */,
 				4214BF8E2294F78E0040DE5C /* Info.plist */,
 				4214BF8F2294F78E0040DE5C /* main.m */,
-				4214BF962294FCA30040DE5C /* AViewController.h */,
-				4214BF972294FCA30040DE5C /* AViewController.m */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -237,7 +232,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4214BFC6229528B20040DE5C /* AViewController.m in Sources */,
-				4214BF982294FCA30040DE5C /* AViewController.m in Sources */,
 				4214BF852294F78D0040DE5C /* ViewController.m in Sources */,
 				4214BFC2229528170040DE5C /* Target_A.m in Sources */,
 				4214BF902294F78E0040DE5C /* main.m in Sources */,
@@ -388,7 +382,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M66668F2X3;
 				INFOPLIST_FILE = A/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -407,7 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M66668F2X3;
 				INFOPLIST_FILE = A/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
