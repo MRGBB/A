@@ -17,6 +17,7 @@
 		4214BF982294FCA30040DE5C /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214BF972294FCA30040DE5C /* AViewController.m */; };
 		4214BFC2229528170040DE5C /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214BFC1229528170040DE5C /* Target_A.m */; };
 		4214BFC6229528B20040DE5C /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214BFC4229528B10040DE5C /* AViewController.m */; };
+		4214C038229630260040DE5C /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 4214C036229630260040DE5C /* Target_A.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		4214BFC1229528170040DE5C /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 		4214BFC4229528B10040DE5C /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		4214BFC5229528B10040DE5C /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		4214C036229630260040DE5C /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		4214C037229630260040DE5C /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
 		54C5376838B2C7AEF890037B /* Pods-A.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.debug.xcconfig"; path = "Target Support Files/Pods-A/Pods-A.debug.xcconfig"; sourceTree = "<group>"; };
 		6DD02B309AAC835FC77405EB /* libPods-A.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-A.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E403AA0894AB2F45BCF959 /* Pods-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.release.xcconfig"; path = "Target Support Files/Pods-A/Pods-A.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,11 +106,21 @@
 		4214BFC3229528B10040DE5C /* A */ = {
 			isa = PBXGroup;
 			children = (
+				4214C035229630260040DE5C /* targets */,
 				4214BFC5229528B10040DE5C /* AViewController.h */,
 				4214BFC4229528B10040DE5C /* AViewController.m */,
 			);
 			name = A;
 			path = A/A;
+			sourceTree = "<group>";
+		};
+		4214C035229630260040DE5C /* targets */ = {
+			isa = PBXGroup;
+			children = (
+				4214C036229630260040DE5C /* Target_A.m */,
+				4214C037229630260040DE5C /* Target_A.h */,
+			);
+			path = targets;
 			sourceTree = "<group>";
 		};
 		C82BEAC37A7303853CD58829 /* Frameworks */ = {
@@ -229,6 +242,7 @@
 				4214BFC2229528170040DE5C /* Target_A.m in Sources */,
 				4214BF902294F78E0040DE5C /* main.m in Sources */,
 				4214BF822294F78D0040DE5C /* AppDelegate.m in Sources */,
+				4214C038229630260040DE5C /* Target_A.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
