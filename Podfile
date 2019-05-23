@@ -7,6 +7,9 @@ source 'https://github.com/CocoaPods/Specs.git'
 #use_frameworks!
 
 target 'A' do
+ 
+
+end
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|
@@ -16,6 +19,4 @@ post_install do |installer|
    end
   end
  end
-end 
-
 end
